@@ -69,7 +69,6 @@ class _OnboardingState extends State<Onboarding> {
   }
 }
 
-
 class NewWidget extends StatelessWidget {
   final String image;
   final String title;
@@ -114,7 +113,9 @@ class NewWidget extends StatelessWidget {
               height: 60,
               width: 60,
               child: ElevatedButton(
-                onPressed: nextPage,
+                onPressed: () {
+                  Navigator.popAndPushNamed(context, '/getstarted');
+                },
                 child: SvgPicture.asset("asset/right.svg"),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xFF50008E),
@@ -127,5 +128,3 @@ class NewWidget extends StatelessWidget {
     );
   }
 }
-
-
