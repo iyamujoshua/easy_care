@@ -29,7 +29,7 @@ class _LoginAsState extends State<LoginAs> {
               GestureDetector(
               onTap: () => {
                 // '/Login'
-                Navigator.pushNamed(context, '/imagecapture')
+                Navigator.pushNamed(context, '/Login')
               },
               child: Container(
                 margin: EdgeInsets.only(left: 5, right: 5, top: 10),
@@ -56,7 +56,7 @@ class _LoginAsState extends State<LoginAs> {
               GestureDetector(
               onTap: () => {
                 // '/Login'
-                Navigator.pushNamed(context, '/imagecapture')
+                Navigator.pushNamed(context, '/Login')
               },
               child: Container(
                 margin: EdgeInsets.only(left: 5, right: 5, top: 10),
@@ -83,7 +83,7 @@ class _LoginAsState extends State<LoginAs> {
                           GestureDetector(
               onTap: () => {
                 // '/Login'
-                Navigator.pushNamed(context, '/imagecapture')
+                Navigator.pushNamed(context, '/Login')
               },
               child: Container(
                 margin: EdgeInsets.only(left: 5, right: 5, top: 10),

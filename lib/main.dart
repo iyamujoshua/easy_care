@@ -1,3 +1,4 @@
+import 'package:easy_care/auth/login.dart';
 import 'package:easy_care/screens/login_as/Register_as.dart';
 import 'package:easy_care/screens/login_as/get_started.dart';
 import 'package:easy_care/screens/login_as/login_as.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/getstarted':(context)=>getstarted(),
          '/LoginAs':(context)=>LoginAs(),
          '/Register':(context)=>Register(),
+         '/Login':(context)=>Login(),
          
         
         
