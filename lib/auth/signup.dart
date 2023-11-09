@@ -20,7 +20,7 @@ class _SignUpState extends State<SignUp> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
-        title: Text(
+        title: const Text(
           "Sign Up",
           style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -59,7 +59,7 @@ class _SignUpState extends State<SignUp> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 TextFormField1(
@@ -73,7 +73,7 @@ class _SignUpState extends State<SignUp> {
                   suffixIcon: null,
                   obscureText: false,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 TextFormField1(
@@ -87,7 +87,7 @@ class _SignUpState extends State<SignUp> {
                   suffixIcon: null,
                   obscureText: false,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField1(
@@ -109,7 +109,7 @@ class _SignUpState extends State<SignUp> {
                   ),
                   obscureText: isPasswordVisible,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 Row(
@@ -123,7 +123,7 @@ class _SignUpState extends State<SignUp> {
                       },
                       activeColor: BrandColors.colorbackground,
                     ),
-                    Text(
+                    const Text(
                       'I agree to the easycare Terms of Service \n and Privacy Policy',
                       style: TextStyle(fontSize: 13.0),
                     ),
@@ -147,8 +147,8 @@ class _SignUpState extends State<SignUp> {
                                     width: 100,
                                     height: 100,
                                   ),
-                                  SizedBox(height: 20),
-                                  Text(
+                                  const SizedBox(height: 20),
+                                  const Text(
                                     "Success",
                                     style: TextStyle(
                                       fontSize: 20,
@@ -156,10 +156,10 @@ class _SignUpState extends State<SignUp> {
                                     ),
                                     textAlign: TextAlign.center,
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 20,
                                   ),
-                                  Text(
+                                  const Text(
                                     "Your account has been successfully\n registered",
                                     style: TextStyle(
                                         color: Colors.grey,
@@ -167,7 +167,7 @@ class _SignUpState extends State<SignUp> {
                                         fontWeight: FontWeight.normal),
                                     textAlign: TextAlign.center,
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 30,
                                   ),
                                   CustomButtonWithBorder(
@@ -208,18 +208,18 @@ class _SignUpState extends State<SignUp> {
                             FontWeight.bold, // Customize the font weight here
                       ),
                     ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Padding(
+                    const Padding(
                       padding: const EdgeInsets.only(left: 21),
-                      child: Text(
+                      child: const Text(
                         "Already have an account? ",
                       ),
                     ),
@@ -227,13 +227,13 @@ class _SignUpState extends State<SignUp> {
                         onTap: (() {
                           Navigator.pushNamed(context, '/Login');
                         }),
-                        child: Text(
+                        child: const Text(
                           "Login",
                           style: TextStyle(color: BrandColors.colorbackground),
                         )),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 )
               ],

@@ -38,6 +38,7 @@ dependencies:
   flutter_svg:
   spacer: ^1.0.0
   smooth_page_indicator:
+  pinput:
 
 dev_dependencies:
   flutter_test:

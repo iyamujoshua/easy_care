@@ -1,3 +1,4 @@
+import 'package:easy_care/auth/forgot_password.dart';
 import 'package:easy_care/auth/login.dart';
 import 'package:easy_care/auth/signup.dart';
 import 'package:easy_care/screens/login_as/Register_as.dart';
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/Register': (context) => Register(),
         '/Login': (context) => Login(),
         '/SignUp': (context) => SignUp(),
+        "/ForgotPassword": (context) => ForgotPassword()
       },
     );
   }
