@@ -170,7 +170,7 @@ class _LoginState extends State<Login> {
                               CustomButtonWithBorder(
                                 text: "Go to home",
                                 onPressed: () {
-                                  Navigator.pushNamed(context, '/HomePage');
+                                  Navigator.pushNamed(context, '/HomeScreen');
                                 },
                                 borderColor: Colors
                                     .transparent, // Customize the border color here

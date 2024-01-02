@@ -1,6 +1,7 @@
 import 'package:easy_care/auth/forgot_password.dart';
 import 'package:easy_care/auth/login.dart';
 import 'package:easy_care/auth/signup.dart';
+import 'package:easy_care/screens/Home/homescreen.dart';
 import 'package:easy_care/screens/login_as/Register_as.dart';
 import 'package:easy_care/screens/login_as/get_started.dart';
 import 'package:easy_care/screens/login_as/login_as.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: splashscreen(),
+      home: const splashscreen(),
       routes: {
         '/onboarding': (context) => Onboarding(),
         '/getstarted': (context) => getstarted(),
@@ -33,7 +34,9 @@ class MyApp extends StatelessWidget {
         '/Register': (context) => Register(),
         '/Login': (context) => Login(),
         '/SignUp': (context) => SignUp(),
-        "/ForgotPassword": (context) => ForgotPassword()
+        "/ForgotPassword": (context) =>const ForgotPassword(),
+        "/HomeScreen": (context) =>const HomeScreen()
+        
       },
     );
   }
